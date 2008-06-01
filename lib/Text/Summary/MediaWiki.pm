@@ -4,7 +4,7 @@ use strict;
 use Carp;
 use HTML::Entities;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 my %TMP_WHITELIST = (
   IPA => 1,
@@ -210,7 +210,7 @@ Optional, a limit for redirection, default 5.
 
 =item * approx_length
 
-Optional, approxmate length of summary to produce (in characters), default 200.
+Optional, approximate length of summary to produce (in characters), default 200.
 
 =back
 
